@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: woocommerce, paypal, express checkout, payments pro, angelleye, payflow, dodirectpayment, apple pay, google play, braintree, payments advanced, rest, credit cards, credit card payments, payments, payment
 Requires at least: 3.8
 Tested up to: 5.2.2
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -126,6 +126,10 @@ Automatic updates should work great for you.  As always, though, we recommend ba
 * If you are unsure, you may need to [contact PayPal](https://www.paypal.com/us/webapps/helpcenter/helphub/home/) and request the information.  Just let them know you need to enable a Payments Pro plugin on your website, but you're unsure whether you should use Website Payments Pro 3.0(DoDirectPayment) or Payments Pro 2.0 (PayFlow).  They can confirm which one you need to use.
 
 == Changelog ==
+
+= 2.1.4 - 10.08.2019 =
+* Fix - Resolves an issue with checkout page validation focus. ([PFW-487](https://github.com/angelleye/paypal-woocommerce/pull/1366))
+* Fix - Re-Added required hooks for our PayPal for WooCommerce Multi-Account extension. ([PFW-496](https://github.com/angelleye/paypal-woocommerce/pull/1367))
 
 = 2.1.3 - 10.03.2019 =
 * Tweak - Adds required hooks for our PayPal for WooCommerce Multi-Account extension. ([PFW-464](https://github.com/angelleye/paypal-woocommerce/pull/1364))
