@@ -474,19 +474,19 @@ of the user authorized to process transactions. Otherwise, leave this field blan
                 <p>These values have been auto-filled into the sandbox credential fields so that you can quickly run test orders. If you have your own PayPal Manager test account you can update the values accordingly.</p>
                 <strong>Partner:</strong> PayPal<br/>
                 <strong>Merchant Login:</strong> angelleye<br/>
-
-               <strong>Username:</strong> paypalwoocommerce<br/>
-
-                <strong>Password:</strong> dwG7!Yp*PLY3<br/>
-                <br /><a href=%s>%s</a>", 'paypal-for-woocommerce'), esc_url(add_query_arg("payflow_sb_autopopulate_credentials", 0)), __("Hide this notice.", 'paypal-for-woocommerce')) . '</p></div>';
-                }
-                if (version_compare(WC_VERSION, '2.6', '<')) {
-                    AngellEYE_Utility::woo_compatibility_notice();
-                } else {
-                    $this->generate_settings_html();
-                }
-                ?>
-            </table>
+                <strong>Username:</strong> paypalwoocommerce<br/>
+                <strong>Password:</strong> @x92hlhIP8lp<br/> 
+                <br /><a href=%s>%s</a>", 'paypal-for-woocommerce'),
+                esc_url(add_query_arg("payflow_sb_autopopulate_credentials", 0)), __("Hide this notice.", 'paypal-for-woocommerce')) . '</p></div>';
+            }
+            if(version_compare(WC_VERSION,'2.6','<')) {
+                AngellEYE_Utility::woo_compatibility_notice();
+            } else {
+               $this->generate_settings_html();
+            }
+            
+            ?>
+        </table>
         </div>
         <?php AngellEYE_Utility::angelleye_display_marketing_sidebar($this->id); ?>
         <script type="text/javascript">
