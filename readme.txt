@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: woocommerce, paypal, express checkout, payments pro, angelleye, payflow, dodirectpayment, apple pay, google play, braintree, payments advanced, rest, credit cards, credit card payments, payments, payment
 Requires at least: 3.8
 Tested up to: 5.3
-Stable tag: 2.1.9
+Stable tag: 2.1.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -127,10 +127,14 @@ Automatic updates should work great for you.  As always, though, we recommend ba
 
 == Changelog ==
 
-= 2.X.X - XX.XX.2019 =
+= 2.1.10 - 12.10.2019 =
 * Tweak - CSS tweaks to resolve viewed on a small/mobile device payment gateway setting issues. ([PFW-518](https://github.com/angelleye/paypal-woocommerce/pull/1392))
 * Tweak - Adjustment to Express Checkout - Product Page Cancel. ([PFW-519](https://github.com/angelleye/paypal-woocommerce/pull/1393))
 * Tweak - Adjustment to Express Checkout - Checkout Page Display. ([PFW-532](https://github.com/angelleye/paypal-woocommerce/pull/1395))
+* Tweak - Adjustment to Updater plugin notice dismissible. ([PFW-536](https://github.com/angelleye/paypal-woocommerce/pull/1396))
+* Tweak - Improves CSS styles on Credit Card forms. ([PFW-530](https://github.com/angelleye/paypal-woocommerce/pull/1398))
+* Tweak - Adjustment to Express Checkout - Smart Button Options. ([PFW-523](https://github.com/angelleye/paypal-woocommerce/pull/1401))
+* Fix - Resolves an issue with CartFlow Reference Transactions. ([PFW-537](https://github.com/angelleye/paypal-woocommerce/pull/1399))
 
 = 2.1.9 - 11.20.2019 =
 * Fix - Resolves some PHP notices. ([PFW-512](https://github.com/angelleye/paypal-woocommerce/pull/1390))
