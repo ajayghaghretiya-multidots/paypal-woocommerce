@@ -3,8 +3,8 @@ Contributors: angelleye, angelleyesupport, Umangvaghela
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SG9SQU2GBXJNA
 Tags: woocommerce, paypal, express checkout, payments pro, angelleye, payflow, dodirectpayment, apple pay, google play, braintree, payments advanced, rest, credit cards, credit card payments, payments, payment
 Requires at least: 3.8
-Tested up to: 5.3
-Stable tag: 2.1.10
+Tested up to: 5.3.2
+Stable tag: 2.1.11
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -126,6 +126,11 @@ Automatic updates should work great for you.  As always, though, we recommend ba
 * If you are unsure, you may need to [contact PayPal](https://www.paypal.com/us/webapps/helpcenter/helphub/home/) and request the information.  Just let them know you need to enable a Payments Pro plugin on your website, but you're unsure whether you should use Website Payments Pro 3.0(DoDirectPayment) or Payments Pro 2.0 (PayFlow).  They can confirm which one you need to use.
 
 == Changelog ==
+
+= 2.1.11 - 23.12.2019 =
+* Tweak - Adjustments to PayPal SuccessWithWarning Handling. ([PFW-529](https://github.com/angelleye/paypal-woocommerce/pull/1402))
+* Tweak - Adjustments to Sandbox details Notice don't show when description is empty. ([PFW-541](https://github.com/angelleye/paypal-woocommerce/pull/1403))
+* Tweak - Adjustment to Updater plugin notice dismissible. ([PFW-536](https://github.com/angelleye/paypal-woocommerce/pull/1404))
 
 = 2.1.10 - 12.10.2019 =
 * Tweak - CSS tweaks to resolve viewed on a small/mobile device payment gateway setting issues. ([PFW-518](https://github.com/angelleye/paypal-woocommerce/pull/1392))
